@@ -48,7 +48,10 @@
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
+
+	  <div className="fh5co-loader"></div>
     <div id="root"></div>
+  
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -84,22 +87,21 @@
 	<!-- Main -->
 	<script src="js/main.js"></script>
 
-	<script>
-    var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
-
-    // default example
-    simplyCountdown('.simply-countdown-one', {
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate()
-    });
-
-    //jQuery example
-    $('#simply-countdown-losange').simplyCountdown({
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate(),
-        enableUtc: false
+  <script>
+      simplyCountdown('.simply-countdown-one', {
+        year: 2018,
+        month: 10,
+        day: 6,
+        hours: 15,
+        minutes: 0,
+        seconds: 0,
+        words: { //words displayed into the countdown
+          days: 'dní',
+          hours: 'hodín',
+          minutes: 'minút',
+          seconds: 'sekúnd'
+        },
+        plural: false,
     });
 </script>
 </html>

@@ -1,27 +1,21 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
-import Home from '../home/Home';
-import About from '../about/About';
+import Header from '../header/Header';
 
 const App = () => (
-  <Router>
-    <div>
-      <ul>
-        <li>
-          <Link to="/">Cervienky</Link>
-        </li>
-        <li>
-          <Link to="/o-nas">O nás</Link>
-        </li>
-      </ul>
+  <div>
+    <nav className="fh5co-nav">
+      <div className="container">
+        <div className="row">
+          <div className="col-xs-12">
+            <div id="fh5co-logo"><a href="index.html">Svadba roka 2018</a></div>
+          </div>
+       </div>
+      </div>
+    </nav>
 
-      <hr />
-
-      <Route exact path="/" component={Home} />
-      <Route path="/o-nas" component={About} />
-    </div>
-  </Router>
+    <Header />
+  </div>
 );
 
 export default App;

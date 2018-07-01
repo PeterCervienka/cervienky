@@ -19,7 +19,7 @@ body {
   background: #fff;
 }
 
-#page {
+#root {
   position: relative;
   overflow-x: hidden;
   width: 100%;
@@ -28,11 +28,11 @@ body {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-.offcanvas #page {
+.offcanvas #root {
   overflow: hidden;
   position: absolute;
 }
-.offcanvas #page:after {
+.offcanvas #root:after {
   -webkit-transition: 2s;
   -o-transition: 2s;
   transition: 2s;
