@@ -3,6 +3,7 @@ import React from 'react';
 import Header from '../header/Header';
 import AboutUs from '../about_us/AboutUs';
 import Event from '../event/Event';
+import StoryLine from '../storyline/StoryLine';
 
 const App = () => (
   <div>
@@ -10,7 +11,7 @@ const App = () => (
       <div className="container">
         <div className="row">
           <div className="col-xs-12">
-            <div id="fh5co-logo"><a href="index.html">Svadba roka 2018</a></div>
+            <div id="fh5co-logo"><a href="index.html">L&P '18</a></div>
           </div>
        </div>
       </div>
@@ -19,6 +20,7 @@ const App = () => (
     <Header />
     <AboutUs />
     <Event />
+    <StoryLine />
   </div>
 );
 
