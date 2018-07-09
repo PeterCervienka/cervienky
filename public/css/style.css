@@ -19,33 +19,6 @@ body {
   background: #fff;
 }
 
-#root {
-  position: relative;
-  overflow-x: hidden;
-  width: 100%;
-  height: 100%;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-}
-.offcanvas #root {
-  overflow: hidden;
-  position: absolute;
-}
-.offcanvas #root:after {
-  -webkit-transition: 2s;
-  -o-transition: 2s;
-  transition: 2s;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 101;
-  background: rgba(0, 0, 0, 0.7);
-  content: "";
-}
-
 a {
   color: #F14E95;
   -webkit-transition: 0.5s;
