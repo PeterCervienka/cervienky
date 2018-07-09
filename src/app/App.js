@@ -2,6 +2,7 @@ import React from 'react';
 
 import Header from '../header/Header';
 import AboutUs from '../about_us/AboutUs';
+import Event from '../event/Event';
 
 const App = () => (
   <div>
@@ -17,6 +18,7 @@ const App = () => (
 
     <Header />
     <AboutUs />
+    <Event />
   </div>
 );
 
