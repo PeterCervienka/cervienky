@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Header from '../header/Header';
+import AboutUs from '../about_us/AboutUs';
 
 const App = () => (
   <div>
@@ -15,6 +16,7 @@ const App = () => (
     </nav>
 
     <Header />
+    <AboutUs />
   </div>
 );
 
