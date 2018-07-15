@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Event = () => (
-    <div id="fh5co-event" className="fh5co-bg">
+	<div id="fh5co-event" className="fh5co-bg">
 		<div className="overlay"></div>
 		<div className="container">
 			<div className="row">
