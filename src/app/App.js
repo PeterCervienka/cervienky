@@ -4,6 +4,7 @@ import Header from '../header/Header';
 import AboutUs from '../about_us/AboutUs';
 import Event from '../event/Event';
 import StoryLine from '../storyline/StoryLine';
+import Map from '../map/Map';
 
 const App = () => (
   <div>
@@ -21,6 +22,7 @@ const App = () => (
     <AboutUs />
     <Event />
     <StoryLine />
+    <Map />
   </div>
 );
 
