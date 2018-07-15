@@ -20,7 +20,7 @@ const AboutUs = () => (
                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
                     </div>
                 </div>
-                <p className="heart text-center"><i className="icon-heart2"></i></p>
+                <p className="pulze-animation heart text-center"><i className="icon-heart2"></i></p>
                 <div className="couple-half">
                     <div className="bride">
                         <img src="images/leni.jpg" alt="groom" className="img-responsive" />

@@ -1033,9 +1033,15 @@ form label {
   left: 0;
   right: 0;
   z-index: 99;
-  animation: pulse 1s ease infinite;
 }
-.heart i {
+
+.pulze-animation {
+  animation: pulse 1s ease infinite;
+  width: 90%;
+  margin: auto;
+}
+
+.pulze-animation i {
   font-size: 20px;
   background: #fff;
   padding: 20px;

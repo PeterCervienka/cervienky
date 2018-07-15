@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Home = () => (
-    <header id="fh5co-header" className="fh5co-cover" role="banner" data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" className="fh5co-cover" role="banner" data-stellar-background-ratio="0.5">
 		<div className="overlay"></div>
 		<div className="container">
 			<div className="row">

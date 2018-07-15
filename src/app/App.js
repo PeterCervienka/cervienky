@@ -1,5 +1,6 @@
 import React from 'react';
 
+import NavigationArrow from "../common/NavigationArrow";
 import Header from '../header/Header';
 import AboutUs from '../about_us/AboutUs';
 import Event from '../event/Event';
@@ -20,6 +21,7 @@ const App = () => (
     </nav>
 
     <Header />
+    <NavigationArrow />
     <AboutUs />
     <Event />
     <StoryLine />
