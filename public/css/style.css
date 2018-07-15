@@ -352,6 +352,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: 600;
 }
 #fh5co-counter .overlay,
+#fh5co-contact .overlay,
 #fh5co-event .overlay {
   position: absolute;
   top: 0;
@@ -572,6 +573,22 @@ h1, h2, h3, h4, h5, h6, figure {
 .map-box {
   padding: 25px 0 25px 0;
 }
+
+.contact-box {
+  text-align: center;
+}
+
+.contact-box p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.contact-box img {
+  margin: auto;
+  margin-bottom: 20px;
+  width: 150px;
+  height: 150px;
+}
+
 
 @media (max-width: 992px) {
   ul.timeline:before {
@@ -975,6 +992,8 @@ form label {
 #fh5co-couple-story,
 #fh5co-couple,
 #fh5co-gallery,
+#fh5co-contact,
+#fh5co-map,
 .fh5co-section {
   padding: 7em 0;
   clear: both;
