@@ -19,6 +19,7 @@ const Map = () => (
           <div className="row">
             <div className="col-md-9 col-xs-12">
               <iframe
+                title="church_google_map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2629.4785741359574!2d18.61908101567141!3d48.772753079279234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4714dcf1afc968e3%3A0x9e7df9a31207c419!2sPiaristick%C3%BD+kostol+Najsv%C3%A4tej%C5%A1ej+Trojice+a+nanebovzatia+Panny+M%C3%A1rie!5e0!3m2!1sen!2ssk!4v1531672520417"
                 width={IFRAME_WIDTH}
                 height={IFRAME_HEIGHT}
@@ -43,6 +44,7 @@ const Map = () => (
           <div className="row">
             <div className="col-md-9 col-xs-12">
               <iframe
+                title="restaurant_google_map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2629.2085862075264!2d18.597358951613103!3d48.777907979178046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4714dcc3676c6583%3A0x26bbc402ca09ec10!2sMeridiana+Bojnice!5e0!3m2!1sen!2ssk!4v1531673166066"
                 width={IFRAME_WIDTH}
                 height={IFRAME_HEIGHT}
