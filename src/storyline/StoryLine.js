@@ -20,7 +20,7 @@ const StoryLine = () => (
 									<span className="date">6. Januára 2014</span>
 								</div>
 								<div className="timeline-body">
-									<p>Prvý krát sa o sebe dozvedeli, keď ešte Lenka študovala cez Erasmus v Nemecku a Peťo som sa presťahoval do Bratislavy.</p>
+									<p>Prvý krát sa o sebe dozvedeli, keď ešte Lenka študovala cez Erasmus v Nemecku a Peťo sa presťahoval do Bratislavy.</p>
 								</div>
 							</div>
 						</li>
@@ -50,7 +50,7 @@ const StoryLine = () => (
 								</div>
 							</div>
 						</li>
-						<li className="animate-box">
+						<li className="timeline-inverted animate-box">
 							<div className="timeline-badge" style={{backgroundImage: 'url(images/ring_color.png)'}}></div>
 							<div className="timeline-panel">
 								<div className="timeline-heading">
@@ -58,10 +58,12 @@ const StoryLine = () => (
 									<span className="date">16. Február 2018</span>
 								</div>
 								<div className="timeline-body">
-									<p>Požiadanie o ruku prebehlo počas ich spoločnej dovolenke v Thajsku. Už pred tým Peťo vedel, že to chce urobiť, ale 
-                                        netušil kedy a ako.
-                                        Bolo to stresujúce, ale Lenka povedala (po chvíli) to vytúžené ÁNO
-                                    </p>
+									<p>
+										Požiadanie o ruku prebehlo počas ich spoločnej dovolenky v Thajsku.
+										Už pred tým Peťo vedel, že to chce urobiť, ale netušil kedy a ako.
+										Bolo to stresujúce, Lenka počas dovolenky skoro našla schovaný prsteň,
+										ale nakoniec to dobre dopadlo a Lenka povedala to vytúžené ÁNO
+									</p>
 								</div>
 							</div>
 						</li>

@@ -27,7 +27,7 @@ const Event = () => (
 										<span>Sobota 06</span>
 										<span>Október 2018</span>
 									</div>
-									<p>Svoje ÁNO si povieme v piaristickom kostole Najsvätejšej trojice v Prievidzi</p>
+									<p>Oficiálna  časť sa bude konať v piaristickom kostole Najsvätejšej trojice v Prievidzi kde si povieme svoje ÁNO</p>
 								</div>
 							</div>
 							<div className="col-md-6 col-sm-6 text-center">
@@ -43,7 +43,7 @@ const Event = () => (
 										<span>Sobota 06</span>
 										<span>Október 2018</span>
 									</div>
-									<p>Po oficialnej časti sa všetci stretneme v reštaurácia Meridiana, kde sa riadne najeme a zatancujeme</p>
+									<p>Po oficialnej časti sa všetci stretneme v reštaurácia Meridiana v Bojniciach, kde sa riadne najeme a zatancujeme</p>
 								</div>
 							</div>
 						</div>

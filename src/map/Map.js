@@ -40,7 +40,7 @@ const Map = () => (
           </div>
         </div>
         <div className="animate-box text-center map-box">
-          <h3>Reštaurácia</h3>
+          <h3>Hostina</h3>
           <div className="row">
             <div className="col-md-9 col-xs-12">
               <iframe
