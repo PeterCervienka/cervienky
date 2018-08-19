@@ -17,7 +17,6 @@ const AboutUs = () => (
                     </div>
                     <div className="desc-groom">
                         <h3>Peter Červienka</h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
                     </div>
                 </div>
                 <p className="pulze-animation heart text-center"><i className="icon-heart2"></i></p>
@@ -27,7 +26,6 @@ const AboutUs = () => (
                     </div>
                     <div className="desc-bride">
                         <h3>Lenka Hohošová</h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
                     </div>
                 </div>
             </div>
