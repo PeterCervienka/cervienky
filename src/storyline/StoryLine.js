@@ -44,8 +44,8 @@ const StoryLine = () => (
 									<span className="date">1. Sepembra 2014</span>
 								</div>
 								<div className="timeline-body">
-									<p>Hneď ako Lenka skončila vysokú školu sa k sebe nasťahovali. 
-                                        Cesta k terajšiemu bytu nebola ľahká a spolu vystriedali 4 byty
+									<p>Keď Lenka skončila vysokú školu, začali spolu bývať.
+                                        Cesta k terajšiemu bytu nebola ľahká a spolu vystriedali 4 byty  
                                     </p>
 								</div>
 							</div>
