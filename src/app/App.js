@@ -7,6 +7,7 @@ import Event from '../event/Event';
 import StoryLine from '../storyline/StoryLine';
 import Contact from '../contact/Contact';
 import Map from '../map/Map';
+import Hotels from '../hotels/Hotels';
 
 const App = () => (
   <div>
@@ -27,6 +28,7 @@ const App = () => (
     <StoryLine />
     <Contact/>
     <Map />
+    <Hotels />
   </div>
 );
 
